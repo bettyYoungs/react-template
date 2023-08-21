@@ -6,7 +6,6 @@ import './App.css'
 
 function App() {
   const element = useRoutes(routes)
-
   return (
     <PersistGate loading={null} persistor={persistor}>
      {element}
